@@ -11,16 +11,22 @@
 
   <!-- Album-spezifische Konfiguration -->
   <script>
+    const SONG_TITLE = "Arno Schnelle (Kleinunternehmer)"; // <--- HIER DEIN TEXT *****
+    const SONG_TITLE = "Arno Schnelle (Kleinunternehmer nach § 19 UStG)"; // <--- HIER DEIN TEXT *****
+    const ALBUM_DESCRIPTION = "Erstellung von Musik und VIdeoinhalten"; // <--- HIER DEIN TEXT *****
     const COVER_IMG = "ArnoSchnelle.jpg"; // <--- HIER DEIN TEXT *****
+
   </script>
 </head>
 
 <body>
 
-  <h1>Arno Schnelle</h1>
-  <h3>(Kleinunternehmer nach § 19 UStG)</h3>
-  <p>Erstellung von Musik und VIdeoinhalten</p>
-  
+  <!-- HTML Platzhalter -->
+  <h1 id="song-title" class="glow"></h1>
+
+  <!-- NEU: Beschreibung für das Album -->
+  <p id="album-description" class="album-desc"></p>
+
   <img id="cover-img" class="cover" alt="Album Cover">
   <div id="platforms"></div>
 
